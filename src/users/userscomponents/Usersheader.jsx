@@ -44,7 +44,7 @@ function Usersheader() {
         <>
             <div className='md:grid grid-cols-3 p-2 md:p-3 bg-white shadow fixed w-full z-50'>
                 <div className='flex md:flex-row'>
-                    <img src="../public/images/logobg.png" alt="logo" style={{ width: '60px', height: '60px' }} />
+                    <img src="/images/logobg.png" alt="logo" style={{ width: '60px', height: '60px' }} />
                     <Link to={'/'}>
                         <div className='flex flex-col'>
                             <p className='md:text-xl text-lg font-bold transition'>SkillPath</p>
@@ -52,6 +52,7 @@ function Usersheader() {
                         </div>
                     </Link>
                 </div>
+
                 <div className='md:hidden flex justify-between items-center bg-amber-400 px-4'>
                     <button onClick={() => setstatus(!status)} className='text-2xl '><FontAwesomeIcon icon={faBars} style={{ color: "#000000", }} /></button>
 
