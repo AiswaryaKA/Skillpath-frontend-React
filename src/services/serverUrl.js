@@ -1,0 +1,1 @@
+export const serverUrl = 'https://skillpath-backend-react.onrender.com'
